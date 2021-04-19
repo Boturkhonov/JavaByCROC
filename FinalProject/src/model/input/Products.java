@@ -24,8 +24,10 @@ public class Products {
     }
 
     /**
-     * @param id id of product
-     * @return product with given {@code id}
+     * Searches the Product list in {@link model.MyStorage} and finds product with given {@code id}
+     * @param id the id of a product
+     * @return Product with given {@code id}
+     * @throws NoSuchElementException if the product with given id does not exist
      */
     public Product getProduct(int id) {
         Optional<Product> first = products.stream()

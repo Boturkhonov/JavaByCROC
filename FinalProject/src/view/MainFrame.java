@@ -4,6 +4,9 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 
+/**
+ * User interface class
+ */
 public class MainFrame extends JFrame {
 
     private JMenuBar menuBar;

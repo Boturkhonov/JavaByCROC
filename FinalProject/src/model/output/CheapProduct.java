@@ -1,5 +1,8 @@
 package model.output;
 
+/**
+ * Model class to output the result of the first task
+ */
 public class CheapProduct {
 
     private String productName;

@@ -6,6 +6,9 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
+/**
+ * Represent the collection of sale
+ */
 @XmlRootElement(name = "sales")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Sales {

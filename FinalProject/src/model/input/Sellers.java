@@ -5,6 +5,9 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
+/**
+ * Represents the collection of Seller
+ */
 @XmlRootElement(name = "sellers")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Sellers {
@@ -20,6 +23,12 @@ public class Sellers {
         this.sellers = sellers;
     }
 
+    /**
+     * Searches the Seller list in {@link model.MyStorage} and finds seller with given {@code id}
+     * @param id the Seller's id
+     * @return Seller with given {@code id}
+     * @throws NoSuchElementException if seller with given id does not exist
+     */
     public Seller getSeller(int id) {
 
         Optional<Seller> first = sellers.stream()

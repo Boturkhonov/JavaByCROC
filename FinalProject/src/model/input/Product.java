@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- * Model class to store product
+ * Model class of product
  */
 @XmlRootElement(name = "product")
 @XmlAccessorType(XmlAccessType.PROPERTY)

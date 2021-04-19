@@ -8,6 +8,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Util class to save results to the Json files
+ */
 public class MyJsonWriter {
 
     private static final ObjectMapper mapper = new ObjectMapper();

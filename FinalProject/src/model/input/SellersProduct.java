@@ -4,6 +4,9 @@ import model.MyStorage;
 
 import javax.xml.bind.annotation.*;
 
+/**
+ * Model class of seller's product
+ */
 @XmlRootElement(name = "sellers_product")
 @XmlAccessorType(XmlAccessType.PROPERTY)
 public class SellersProduct {

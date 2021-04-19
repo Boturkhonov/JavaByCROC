@@ -10,7 +10,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 /**
- * Model class to store sale
+ * Model class of sale
  */
 @XmlRootElement(name = "sale")
 @XmlAccessorType(XmlAccessType.PROPERTY)

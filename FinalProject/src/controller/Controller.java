@@ -16,6 +16,9 @@ import java.util.*;
 
 import static model.MyStorage.*;
 
+/**
+ * Class to manage everything that happens in UI
+ */
 public class Controller implements ActionListener {
 
     private static final String FIRST_TASK_OUTPUT = "output\\cheapProducts.json";

@@ -10,6 +10,9 @@ import java.util.stream.Collectors;
 
 import static model.MyStorage.*;
 
+/**
+ * Util class to solve tasks
+ */
 public class Solver {
 
     /**

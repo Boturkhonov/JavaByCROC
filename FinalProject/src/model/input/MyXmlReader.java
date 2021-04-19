@@ -9,7 +9,7 @@ import java.io.File;
  * Util class to read Xml files of specific format
  */
 public class MyXmlReader {
-
+    // a file to read from
     private static File file;
     private static JAXBContext context;
     private static Unmarshaller unmarshaller;

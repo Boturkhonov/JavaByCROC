@@ -5,6 +5,9 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
+/**
+ * Model class of a seller
+ */
 @XmlRootElement(name = "seller")
 @XmlAccessorType(XmlAccessType.PROPERTY)
 public class Seller {
