@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="sales" type="sales"/>
+  <xs:complexType name="sale">
+    <xs:all>
+      <xs:element type="xs:int" name="sale_id"/>
+      <xs:element type="xs:int" name="seller_id"/>
+      <xs:element type="xs:int" name="product_id"/>
+      <xs:element type="xs:int" name="quantity"/>
+      <xs:element type="xs:date" name="sold_date"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="sales">
+    <xs:sequence>
+      <xs:element type="sale" name="sale" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

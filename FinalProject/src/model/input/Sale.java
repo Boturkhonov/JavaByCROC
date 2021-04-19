@@ -16,7 +16,7 @@ import java.time.format.DateTimeFormatter;
 @XmlAccessorType(XmlAccessType.PROPERTY)
 public class Sale {
 
-    private final static DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+    private final static DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
     private int saleId;
     private Seller seller;

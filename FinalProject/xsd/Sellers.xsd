@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="sellers" type="sellers"/>
+  <xs:complexType name="seller">
+    <xs:all>
+      <xs:element type="xs:int" name="id"/>
+      <xs:element type="xs:string" name="first_name"/>
+      <xs:element type="xs:string" name="last_name"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="sellers">
+    <xs:sequence>
+      <xs:element type="seller" name="seller" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
