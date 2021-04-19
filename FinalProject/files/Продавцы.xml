@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sellers>
+    <seller>
+        <id>123</id>
+        <first_name>Kenna</first_name>
+        <last_name>Hobbs</last_name>
+    </seller>
+    <seller>
+        <id>456</id>
+        <first_name>Lukas</first_name>
+        <last_name>Rich</last_name>
+    </seller>
+    <seller>
+        <id>744</id>
+        <first_name>Marlon</first_name>
+        <last_name>Mcdonald</last_name>
+    </seller>
+    <seller>
+        <id>007</id>
+        <first_name>James</first_name>
+        <last_name>Bond</last_name>
+    </seller>
+
+</sellers>

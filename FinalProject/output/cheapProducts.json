@@ -1,0 +1,21 @@
+[ {
+  "productName" : "Сыр",
+  "sellerName" : "Kenna Hobbs",
+  "price" : 130.0
+}, {
+  "productName" : "Хлеб",
+  "sellerName" : "Kenna Hobbs",
+  "price" : 33.0
+}, {
+  "productName" : "Тетрадь",
+  "sellerName" : "Lukas Rich",
+  "price" : 49.0
+}, {
+  "productName" : "Ручка",
+  "sellerName" : "James Bond",
+  "price" : 30.99
+}, {
+  "productName" : "Сахар",
+  "sellerName" : "James Bond",
+  "price" : 85.0
+} ]

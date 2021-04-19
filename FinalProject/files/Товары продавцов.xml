@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sellers_products>
+    <sellers_product>
+        <seller_id>123</seller_id>
+        <product_id>1555</product_id>
+        <price>130</price>
+        <quantity>20</quantity>
+    </sellers_product>
+
+    <sellers_product>
+        <seller_id>123</seller_id>
+        <product_id>1232</product_id>
+        <price>33</price>
+        <quantity>50</quantity>
+    </sellers_product>
+
+    <sellers_product>
+        <seller_id>456</seller_id>
+        <product_id>1232</product_id>
+        <price>35.0</price>
+        <quantity>100</quantity>
+    </sellers_product>
+
+    <sellers_product>
+        <seller_id>456</seller_id>
+        <product_id>1555</product_id>
+        <price>149</price>
+        <quantity>60</quantity>
+    </sellers_product>
+
+    <sellers_product>
+        <seller_id>456</seller_id>
+        <product_id>1250</product_id>
+        <price>49</price>
+        <quantity>60</quantity>
+    </sellers_product>
+
+    <sellers_product>
+        <seller_id>744</seller_id>
+        <product_id>1250</product_id>
+        <price>50</price>
+        <quantity>150</quantity>
+    </sellers_product>
+
+    <sellers_product>
+        <seller_id>744</seller_id>
+        <product_id>1018</product_id>
+        <price>50</price>
+        <quantity>200</quantity>
+    </sellers_product>
+
+    <sellers_product>
+        <seller_id>007</seller_id>
+        <product_id>1018</product_id>
+        <price>30.99</price>
+        <quantity>90</quantity>
+    </sellers_product>
+
+    <sellers_product>
+        <seller_id>007</seller_id>
+        <product_id>1111</product_id>
+        <price>85</price>
+        <quantity>300</quantity>
+    </sellers_product>
+</sellers_products>

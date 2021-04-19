@@ -1,3 +1,5 @@
 .idea/
+!FinalProject/.idea/
 out/
 *.iml
+!FinalProject/FinalProject.iml
